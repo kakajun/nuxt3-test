@@ -1,3 +1,9 @@
-# github-tgbjx4
+# Nuxt3 练手工程
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/github-tgbjx4)
+每天学点新知识, 跟着杨村长学 Nuxt3, 这个工程每天晚上会推一点点内容,第二天早上同步推出一篇掘金文章,我自己成长的同时,也分享一下自己学习成长的知识给大家, 如果大家觉得赞,不妨给我点个免费的 start!
+
+第一课: 建立一个工程
+[跟着杨村长学 nuxt3,每天收获一点点(1)](https://juejin.cn/post/7036908829124067358)
+
+第一课: 建立一个工程
+[跟着杨村长学 nuxt3,每天收获一点点(1)](https://juejin.cn/post/7036908829124067358)

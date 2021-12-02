@@ -10,9 +10,9 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.11.1",
-    "nuxt3": "latest",
     "@pinia/nuxt": "^0.1.6",
     "@vueuse/core": "^7.1.2",
-    "eslint": "^8.3.0"
+    "eslint": "^8.3.0",
+    "nuxt3": "latest"
   }
 }
