@@ -6,7 +6,7 @@ export default defineNuxtConfig({
     title: 'Vitesse Nuxt 3',
   },
   buildModules: [
-    '@vueuse/core/nuxt',
+
     '@pinia/nuxt',
   ],
 })
