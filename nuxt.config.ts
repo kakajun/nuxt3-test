@@ -3,7 +3,7 @@ import { defineNuxtConfig } from 'nuxt3';
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
   meta: {
-    title: 'Vitesse Nuxt 3',
+    title: 'Nuxt 3 test',
   },
-  buildModules: [['@pinia/nuxt', { disableVuex: true }]],
+  buildModules: ['@vueuse/core/nuxt'],
 });
