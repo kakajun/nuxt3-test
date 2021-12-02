@@ -5,5 +5,5 @@ export default defineNuxtConfig({
   meta: {
     title: 'Nuxt 3 test',
   },
-  buildModules: ['@vueuse/core/nuxt'],
+
 });

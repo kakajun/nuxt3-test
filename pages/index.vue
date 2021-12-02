@@ -5,7 +5,7 @@
       {{ foo }}
     </div>
     <NuxtLink to="/detail">Detail Page</NuxtLink>
-    <NuxtLink to="/vueUse">vueUse Page</NuxtLink>
+    <!-- <NuxtLink to="/vueUse">vueUse Page</NuxtLink> -->
   </div>
 </template>
 <script setup>
