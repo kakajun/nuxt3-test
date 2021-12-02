@@ -1,3 +1,3 @@
 export default {
-  buildModules: ['@vueuse/core/nuxt'],
+  // buildModules: ['@vueuse/core/nuxt'],
 };
