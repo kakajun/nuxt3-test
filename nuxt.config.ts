@@ -5,5 +5,5 @@ export default defineNuxtConfig({
   meta: {
     title: 'Vitesse Nuxt 3',
   },
-  buildModules: [],
+  buildModules: ['@vueuse/core/nuxt'],
 });
