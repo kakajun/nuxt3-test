@@ -33,6 +33,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@4.1.6
         with:
           BRANCH: gh-pages # The branch the action should deploy to.
-          FOLDER: dist # The folder the action should deploy.
+          FOLDER: .output/public # The folder the action should deploy.
           # workspace: '1x'
           # target-folder: '1x' # 放在2X目录下
