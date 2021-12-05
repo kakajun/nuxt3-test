@@ -14,6 +14,7 @@
     "@vueuse/core": "^7.1.2",
     "eslint": "^8.3.0",
     "nuxt3": "latest",
+    "vue-devui":"1.0.0-beta.9",
     "typescript": "^4.5.2"
   }
 }
