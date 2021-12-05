@@ -1,6 +1,6 @@
 {
   "node_modules/nuxt3/dist/app/entry.mjs": {
-    "file": "entry-100d67cc.mjs",
+    "file": "entry-9437293b.mjs",
     "src": "node_modules/nuxt3/dist/app/entry.mjs",
     "isEntry": true,
     "dynamicImports": [
@@ -15,7 +15,7 @@
     ]
   },
   "components/Counter.vue": {
-    "file": "Counter-56e0742b.mjs",
+    "file": "Counter-4ac073fd.mjs",
     "src": "components/Counter.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -23,7 +23,7 @@
     ]
   },
   "components/InputEntry.vue": {
-    "file": "InputEntry-38726d79.mjs",
+    "file": "InputEntry-bc6cedab.mjs",
     "src": "components/InputEntry.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -31,7 +31,7 @@
     ]
   },
   "components/TheFooter.vue": {
-    "file": "TheFooter-790d12c0.mjs",
+    "file": "TheFooter-bbf8fffb.mjs",
     "src": "components/TheFooter.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -39,7 +39,7 @@
     ]
   },
   "components/TheHeader.vue": {
-    "file": "TheHeader-2c75322c.mjs",
+    "file": "TheHeader-f76f18a2.mjs",
     "src": "components/TheHeader.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -47,7 +47,7 @@
     ]
   },
   "pages/detail.vue": {
-    "file": "detail-8700817a.mjs",
+    "file": "detail-88854406.mjs",
     "src": "pages/detail.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -58,7 +58,7 @@
     ]
   },
   "pages/hi/[id].vue": {
-    "file": "_id_-8f772c9d.mjs",
+    "file": "_id_-c698ef57.mjs",
     "src": "pages/hi/[id].vue",
     "isDynamicEntry": true,
     "imports": [
@@ -67,7 +67,7 @@
     ]
   },
   "pages/index.vue": {
-    "file": "index-278bbe6b.mjs",
+    "file": "index-34d53f9e.mjs",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -76,7 +76,7 @@
     ]
   },
   "pages/vueUse.vue": {
-    "file": "vueUse-4140b0b4.mjs",
+    "file": "vueUse-1f925fcd.mjs",
     "src": "pages/vueUse.vue",
     "isDynamicEntry": true,
     "imports": [
