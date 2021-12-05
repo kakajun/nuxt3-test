@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h1>Index Page1</h1>
-    <h1>Index Page</h1>
+    <h1>Index Page2</h1>
+
     <div>
       {{ foo }}
     </div>
