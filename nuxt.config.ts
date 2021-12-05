@@ -4,14 +4,14 @@ export default defineNuxtConfig({
   meta: {
     title: 'Nuxt 3',
   },
-  buildDir: '/fff/',
-  srcDir: "/client/",
+  // buildDir: '/fff/',
+  // srcDir: "/client/",
   buildModules: [
     '@vueuse/core/nuxt',
     '@pinia/nuxt',
   ],
  app: {
-    "basePath": "./",
+    "basePath": "/fff/",
     "assetsPath": "./_nuxt/",
     "cdnURL": null
   },
