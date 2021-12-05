@@ -6,21 +6,15 @@ on:
       - master
 
 jobs:
-  deploy:
-    runs-on: ${{ matrix.os }}
-
-    strategy:
-      matrix:
-        os: [ubuntu-latest]
-        node: [16]
+  build-and-deploy:
+    runs-on: ubuntu-latest # 运行workflow的服务器系统：ubuntu最新版本
 
     steps:
-      - uses: actions/setup-node@v2
+      - name: Set node version to 16 🛠️
+        uses: actions/setup-node@v2
         with:
-          node-version: ${{ matrix.node }}
-
-      - name: Checkout
-        uses: actions/checkout@master
+          node-version: 16
+          cache: "yarn"
 
       - name: Get yarn cache directory path
         id: yarn-cache-dir-path
@@ -47,7 +41,6 @@ jobs:
       - name: Deuploy to Githb Pages
         uses: JamesIves/github-pages-deploy-action@4.1.6
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
           FOLDER: ".output/public"
           CLEAN: true
