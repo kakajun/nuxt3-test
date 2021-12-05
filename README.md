@@ -7,3 +7,9 @@
 
 第二课: 安装@pinia/nuxt 插件
 [跟着杨村长学 nuxt3,每天收获一点点(2)](https://juejin.cn/post/7037270429911744526)
+
+## 预览
+
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/github-tgbjx4)
+
+这边注意一下,stackblitz 由于 node 版本暂时不支持由 14 切换到 16, 所以需要预览的伙伴还得下载到本地, 并且环境 node 切换到 16 才能跑起来
