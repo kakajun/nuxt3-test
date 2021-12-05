@@ -11,11 +11,11 @@ export default defineNuxtConfig({
     '@vueuse/core/nuxt',
     '@pinia/nuxt',
   ],
- app: {
-    "basePath": "/fff/",
-    "assetsPath": "./_nuxt/",
-    "cdnURL": null
-  },
+//  app: {
+//     "basePath": "/fff/",
+//     "assetsPath": "./_nuxt/",
+//     "cdnURL": null
+//   },
   vite: {
     logLevel: 'info',
   },
