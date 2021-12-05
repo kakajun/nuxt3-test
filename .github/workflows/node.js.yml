@@ -42,7 +42,7 @@ jobs:
         run: npm run build
         env:
           NITRO_PRESET: browser
-          NUXT_ROUTER_BASE: /nuxt3-test/
+          NUXT_ROUTER_BASE: ./nuxt3-test/
 
       - name: Deuploy to Githb Pages
         uses: JamesIves/github-pages-deploy-action@4.1.6
