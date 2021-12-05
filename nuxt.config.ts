@@ -10,8 +10,8 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
   ],
  app: {
-    "basePath": "/nuxt3-test/",
-    "assetsPath": "/nuxt3-test/_nuxt/",
+    "basePath": "./",
+    "assetsPath": "./_nuxt/",
     "cdnURL": null
   },
   vite: {
