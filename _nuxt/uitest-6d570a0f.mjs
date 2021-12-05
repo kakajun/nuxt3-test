@@ -1,0 +1,1 @@
+import{_ as t,l as o,c as s,f as n,p as c,o as a,q as _}from"./entry-024793f7.mjs";const r={},d={class:""},l=_("\u6309\u94AE");function f(i,u){const e=o("d-button");return a(),s("div",d,[n(e,null,{default:c(()=>[l]),_:1})])}var p=t(r,[["render",f]]);export{p as default};
