@@ -27,12 +27,12 @@ jobs:
       - name: Install and Build 🔧 # This example project is built using npm and outputs the result to the 'build' folder. Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
         run: |
           npm install
-          npm run build
+          npm run dev
 
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@4.1.6
-        with:
-          BRANCH: gh-pages # The branch the action should deploy to.
-          FOLDER: .output/public # The folder the action should deploy.
+     # - name: Deploy 🚀
+      #  uses: JamesIves/github-pages-deploy-action@4.1.6
+     #   with:
+     #     BRANCH: gh-pages # The branch the action should deploy to.
+     #     FOLDER: .output/public # The folder the action should deploy.
           # workspace: '1x'
           # target-folder: '1x' # 放在2X目录下
