@@ -4,7 +4,8 @@ export default defineNuxtConfig({
   meta: {
     title: 'Nuxt 3',
   },
-  buildDir:'./',
+  buildDir: '/fff/',
+  srcDir: "/client/",
   buildModules: [
     '@vueuse/core/nuxt',
     '@pinia/nuxt',
