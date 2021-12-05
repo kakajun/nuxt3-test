@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   meta: {
     title: 'Nuxt 3',
   },
-    buildDir: 'nuxt-build',
+    // buildDir: 'nuxt-build',
  router: {
     base: process.env.NUXT_ROUTER_BASE || '/'
   },
