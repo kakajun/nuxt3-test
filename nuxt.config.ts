@@ -5,6 +5,7 @@ export default defineNuxtConfig({
     title: 'Nuxt 3',
   },
     // buildDir: 'nuxt-build',
+  // rootDir:"/project",
  router: {
     base: process.env.NUXT_ROUTER_BASE || '/'
   },
