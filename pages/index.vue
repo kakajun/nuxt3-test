@@ -6,7 +6,7 @@
       {{ foo }}
     </div>
     <div>
-      {{ $hello() }}
+      <!-- {{ $hello() }} -->
     </div>
     <NuxtLink to="/detail">Detail Page</NuxtLink>
     <div>
@@ -20,6 +20,6 @@
   </div>
 </template>
 <script setup>
-const { $hello } = useNuxtApp();
+// const { $hello } = useNuxtApp();
 const foo = useFoo();
 </script>
