@@ -6,9 +6,9 @@ export default defineNuxtConfig({
   },
     // buildDir: 'nuxt-build',
   // rootDir:"./project/",
- router: {
-    base: process.env.NUXT_ROUTER_BASE || '/'
-  },
+//  router: {
+//     base: process.env.NUXT_ROUTER_BASE || '/'
+//   },
   // nitro: {
   //   preset: '/nuxt3-test/'
   // },
