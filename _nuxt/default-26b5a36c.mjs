@@ -1,0 +1,1 @@
+import n from"./Sidebar-467683fb.mjs";import _ from"./Navbar-c8a3a016.mjs";import{_ as r,c,i as e,a as s,l as m,o as l}from"./entry-c1c8225c.mjs";import"./Button-b1ca37fb.mjs";const d={},i={class:"container"};function f(t,p){const a=n,o=_;return l(),c("div",i,[e(a),s("main",null,[e(o),m(t.$slots,"default")])])}var j=r(d,[["render",f]]);export{j as default};

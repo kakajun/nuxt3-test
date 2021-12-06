@@ -1,0 +1,1 @@
+import{_,m as t,c as a,i as e,j as o,o as r,k as s}from"./entry-c1c8225c.mjs";const d={},l={class:""},u=s("\u6309\u94AE"),i=s("Success");function m(p,f){const c=t("d-button"),n=t("el-button");return r(),a("div",l,[e(c,null,{default:o(()=>[u]),_:1}),e(n,{type:"success",plain:""},{default:o(()=>[i]),_:1})])}var x=_(d,[["render",m]]);export{x as default};

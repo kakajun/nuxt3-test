@@ -1,9 +1,12 @@
 {
   "node_modules/nuxt3/dist/app/entry.mjs": {
-    "file": "entry-2a84c701.mjs",
+    "file": "entry-c1c8225c.mjs",
     "src": "node_modules/nuxt3/dist/app/entry.mjs",
     "isEntry": true,
     "dynamicImports": [
+      "layouts/default.vue",
+      "pages/Button.vue",
+      "pages/Vue3SketchRuler.vue",
       "pages/detail.vue",
       "pages/hi/[id].vue",
       "pages/index.vue",
@@ -11,6 +14,8 @@
       "pages/vueUse.vue",
       "components/Counter.vue",
       "components/InputEntry.vue",
+      "components/Navbar.vue",
+      "components/Sidebar.vue",
       "components/TheFooter.vue",
       "components/TheHeader.vue"
     ],
@@ -19,7 +24,7 @@
     ]
   },
   "components/Counter.vue": {
-    "file": "Counter-851c6413.mjs",
+    "file": "Counter-1b35a421.mjs",
     "src": "components/Counter.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -27,15 +32,49 @@
     ]
   },
   "components/InputEntry.vue": {
-    "file": "InputEntry-9408d1c8.mjs",
+    "file": "InputEntry-b70362e7.mjs",
     "src": "components/InputEntry.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt3/dist/app/entry.mjs"
     ]
   },
+  "components/Navbar.vue": {
+    "file": "Navbar-c8a3a016.mjs",
+    "src": "components/Navbar.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt3/dist/app/entry.mjs"
+    ],
+    "css": [
+      "assets/Navbar.cb9379bb.css"
+    ]
+  },
+  "components/Sidebar.vue": {
+    "file": "Sidebar-467683fb.mjs",
+    "src": "components/Sidebar.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "pages/Button.vue",
+      "node_modules/nuxt3/dist/app/entry.mjs"
+    ],
+    "css": [
+      "assets/Sidebar.464b6963.css"
+    ]
+  },
+  "pages/Button.vue": {
+    "file": "Button-b1ca37fb.mjs",
+    "src": "pages/Button.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt3/dist/app/entry.mjs"
+    ],
+    "css": [
+      "assets/Button.3a793f4d.css"
+    ]
+  },
   "components/TheFooter.vue": {
-    "file": "TheFooter-c71355ad.mjs",
+    "file": "TheFooter-cdbfa6a2.mjs",
     "src": "components/TheFooter.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -43,15 +82,26 @@
     ]
   },
   "components/TheHeader.vue": {
-    "file": "TheHeader-feea2b54.mjs",
+    "file": "TheHeader-2f63094b.mjs",
     "src": "components/TheHeader.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt3/dist/app/entry.mjs"
     ]
   },
+  "pages/Vue3SketchRuler.vue": {
+    "file": "Vue3SketchRuler-8595b2a9.mjs",
+    "src": "pages/Vue3SketchRuler.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt3/dist/app/entry.mjs"
+    ],
+    "css": [
+      "assets/Vue3SketchRuler.87034133.css"
+    ]
+  },
   "pages/detail.vue": {
-    "file": "detail-17d6b91f.mjs",
+    "file": "detail-7c219ab9.mjs",
     "src": "pages/detail.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -62,7 +112,7 @@
     ]
   },
   "pages/hi/[id].vue": {
-    "file": "_id_-cfa7437b.mjs",
+    "file": "_id_-c064f2aa.mjs",
     "src": "pages/hi/[id].vue",
     "isDynamicEntry": true,
     "imports": [
@@ -71,7 +121,7 @@
     ]
   },
   "pages/index.vue": {
-    "file": "index-4567d07d.mjs",
+    "file": "index-ee5d6400.mjs",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -80,7 +130,7 @@
     ]
   },
   "pages/uitest.vue": {
-    "file": "uitest-8163eff3.mjs",
+    "file": "uitest-09e89225.mjs",
     "src": "pages/uitest.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -88,11 +138,25 @@
     ]
   },
   "pages/vueUse.vue": {
-    "file": "vueUse-ba1e74a1.mjs",
+    "file": "vueUse-bca74592.mjs",
     "src": "pages/vueUse.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt3/dist/app/entry.mjs"
+    ]
+  },
+  "layouts/default.vue": {
+    "file": "default-26b5a36c.mjs",
+    "src": "layouts/default.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "components/Sidebar.vue",
+      "components/Navbar.vue",
+      "node_modules/nuxt3/dist/app/entry.mjs",
+      "pages/Button.vue"
+    ],
+    "css": [
+      "assets/default.c8293698.css"
     ]
   }
 }
