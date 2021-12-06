@@ -1,0 +1,1 @@
+import{_ as t,f as o,c as n,g as a,h as c,a as s,o as _,i as r}from"./entry-2a84c701.mjs";const d={},l=s("h1",null,"heard",-1),u=r("heard\u6309\u94AE");function f(h,i){const e=o("d-button");return _(),n("div",null,[l,a(e,null,{default:c(()=>[u]),_:1})])}var p=t(d,[["render",f]]);export{p as default};
