@@ -8,6 +8,12 @@
 第二课: 安装@pinia/nuxt 插件
 [跟着杨村长学 nuxt3,每天收获一点点(2)](https://juejin.cn/post/7037270429911744526)
 
+第三课: UI 组件库安装
+[跟着杨村长学 nuxt3,每天收获一点点(3)](https://juejin.cn/post/7038391838893408293)
+
+第四课: Layout 布局
+[跟着杨村长学 nuxt3,--window 报错处理(4)](https://juejin.cn/post/7038624986797441055)
+
 ## 预览
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/github-tgbjx4)
