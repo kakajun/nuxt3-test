@@ -16,7 +16,7 @@ var __spreadValues = (a, b) => {
 };
 /*!
 * vue3-sketch-ruler v1.2.3
-* 2021年12月Tue Dec 07 2021 08:29:12 GMT+0800 (中国标准时间)
+* 2021年12月Tue Dec 07 2021 10:55:24 GMT+0800 (中国标准时间)
 * 制作
 */
 import { defineComponent, ref, onMounted, computed, withDirectives, openBlock, createElementBlock, normalizeStyle, createElementVNode, toDisplayString, vShow, reactive, watch, resolveComponent, normalizeClass, createVNode, Fragment, renderList, createBlock } from "vue";
@@ -122,7 +122,7 @@ function _sfc_render$3(_ctx, _cache, $props, $setup, $data, $options) {
     [vShow, _ctx.showLine]
   ]);
 }
-var RulerLine = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["render", _sfc_render$3], ["__scopeId", "data-v-53789ba1"]]);
+var RulerLine = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["render", _sfc_render$3], ["__scopeId", "data-v-069c473f"]]);
 const getGridSize = (scale) => {
   if (scale <= 0.25)
     return 40;
@@ -211,23 +211,24 @@ const _sfc_main$2 = defineComponent({
     const state = reactive({
       canvasContext: null
     });
+    let ratio = 1;
     const canvas = ref(null);
     onMounted(() => {
+      ratio = props.ratio || window.devicePixelRatio || 1;
       initCanvasRef();
-      updateCanvasContext();
-      drawRuler();
+      updateCanvasContext(ratio);
+      drawRuler(ratio);
     });
     const initCanvasRef = () => {
       state.canvasContext = canvas.value && canvas.value.getContext("2d");
     };
-    const updateCanvasContext = () => {
+    const updateCanvasContext = (ratio2) => {
       if (canvas.value) {
-        const ratio = props.ratio;
-        canvas.value.width = props.width * ratio;
-        canvas.value.height = props.height * ratio;
+        canvas.value.width = props.width * ratio2;
+        canvas.value.height = props.height * ratio2;
         const ctx = state.canvasContext;
         if (ctx) {
-          ctx.font = `${12 * ratio}px -apple-system,
+          ctx.font = `${12 * ratio2}px -apple-system,
                 "Helvetica Neue", ".SFNSText-Regular",
                 "SF UI Text", Arial, "PingFang SC", "Hiragino Sans GB",
                 "Microsoft YaHei", "WenQuanYi Zen Hei", sans-serif`;
@@ -236,22 +237,22 @@ const _sfc_main$2 = defineComponent({
         }
       }
     };
-    const drawRuler = () => {
+    const drawRuler = (ratio2) => {
       const options = {
         scale: props.scale,
         width: props.width,
         height: props.height,
         palette: props.palette,
-        ratio: props.ratio
+        ratio: ratio2
       };
       if (state.canvasContext) {
         drawCavaseRuler(state.canvasContext, props.start, props.selectStart, props.selectLength, options, !props.vertical);
       }
     };
-    watch(() => props.start, () => drawRuler());
+    watch(() => props.start, () => drawRuler(ratio));
     watch([() => props.width, () => props.height], () => {
-      updateCanvasContext();
-      drawRuler();
+      updateCanvasContext(ratio);
+      drawRuler(ratio);
     });
     const handle = (e, key) => {
       const getValueByOffset = (offset2, start, scale) => Math.round(start + offset2 / scale);
@@ -443,15 +444,14 @@ function _sfc_render$1(_ctx, _cache, $props, $setup, $data, $options) {
     ])
   ], 6);
 }
-var RulerWrapper = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["render", _sfc_render$1], ["__scopeId", "data-v-6f650e37"]]);
+var RulerWrapper = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["render", _sfc_render$1], ["__scopeId", "data-v-adb71e78"]]);
 const sketchRulerProps = {
   scale: {
     type: Number,
     default: 1
   },
   ratio: {
-    type: Number,
-    default: 1
+    type: Number
   },
   thick: {
     type: Number,

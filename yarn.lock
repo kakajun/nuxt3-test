@@ -6434,10 +6434,10 @@ vue-style-loader@^4.1.3:
     hash-sum "^1.0.2"
     loader-utils "^1.0.2"
 
-vue3-sketch-ruler@^1.2.4:
-  version "1.2.4"
-  resolved "https://registry.npmjs.org/vue3-sketch-ruler/-/vue3-sketch-ruler-1.2.4.tgz#37cc55ff8672cc3a90f9ae156ee728eff08aec3b"
-  integrity sha512-LWgpLmrRr2FeGpBV/PeOKyeyj0vXbX8CgN7Him5VxuL+mOEw7swrThiRv6esVgOGsXrCXXy6Wr8AqP//MgjenA==
+vue3-sketch-ruler@^1.2.5:
+  version "1.2.5"
+  resolved "https://registry.npmjs.org/vue3-sketch-ruler/-/vue3-sketch-ruler-1.2.5.tgz#fa58935f7f7fd44f4106bde63f6f4cb3d1ae93f7"
+  integrity sha512-8r6CNIGHjyp+HTWe7GdTWNOxd49yYHkLeaB7MJpkg2qNozZKX44VXcS+NjeO5GG0LvfvXc2BsaVlx3aT6rL2gQ==
 
 vue@^3.1.1, vue@^3.2.23:
   version "3.2.23"

@@ -45,11 +45,18 @@
 </template>
 
 <script setup>
+import { ref, onMounted } from "vue";
 import uiButton from "../pages/Button.vue";
-let ssr = false;
-if (process.client) {
-  ssr = ref(process.server || window.__NUXT__.serverRendered);
-}
+let ssr = ref(true);
+onMounted(() => {
+  ssr.value = process.server || window.__NUXT__.serverRendered;
+
+  console.log(
+    process.server || window.__NUXT__.serverRendered,
+    " process.server || window.__NUXT__.serverRendered"
+  );
+});
+
 const state = reactive({ metrics: [] });
 const nav = globalThis.performance.getEntriesByType("navigation")[0];
 console.log(globalThis.performance.getEntriesByType("navigation"), "8888");

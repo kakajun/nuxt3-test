@@ -27,8 +27,9 @@
 
 <script setup lang="ts">
 import { computed, toRefs, ref, reactive, onMounted, nextTick } from "vue";
-import { SketchRule } from "../utils/index.es.js";
-// import "vue3-sketch-ruler/lib/style.css";
+import { SketchRule } from "vue3-sketch-ruler";
+// import "@/assets/style.css";
+import "vue3-sketch-ruler/lib/style.css";
 
 const rectWidth = 600;
 const rectHeight = 320;
@@ -121,9 +122,9 @@ body * {
 }
 
 .wrapper {
-  position: absolute;
-  top: 100px;
-  left: 240px;
+  // position: absolute;
+  // top: 100px;
+  // left: 240px;
   /* 特别注意,这个width要和传入组件的width成对应关系,
    也就是 780width +thick20 =800
    否则影子不和容器搭配,这个在2X中会进行自动匹配修正,省得配置麻烦
@@ -165,7 +166,7 @@ body * {
   left: 50%;
   width: 600px;
   height: 320px;
-  background: url('../assets/bg.jfif') no-repeat;
+  background: url("../assets/bg.jfif") no-repeat;
   background-size: 100% 100%;
   transform-origin: 50% 0;
 }
