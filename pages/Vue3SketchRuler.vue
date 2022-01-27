@@ -28,9 +28,7 @@
 <script setup lang="ts">
 import { computed, toRefs, ref, reactive, onMounted, nextTick } from "vue";
 import { SketchRule } from "vue3-sketch-ruler";
-// import "@/assets/style.css";
 import "vue3-sketch-ruler/lib/style.css";
-
 const rectWidth = 600;
 const rectHeight = 320;
 const screensRef = ref(null);

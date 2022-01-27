@@ -59,8 +59,8 @@ onMounted(() => {
 
 const state = reactive({ metrics: [] });
 const nav = globalThis.performance.getEntriesByType("navigation")[0];
-console.log(globalThis.performance.getEntriesByType("navigation"), "8888");
-console.log(nav, "555");
+// console.log(globalThis.performance.getEntriesByType("navigation"), "8888");
+// console.log(globalThis.performance.getEntriesByType, "555");
 if (nav) {
   for (const entry of nav.serverTiming || []) {
     state.metrics.push({

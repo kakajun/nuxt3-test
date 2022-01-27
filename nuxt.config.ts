@@ -13,7 +13,7 @@ export default defineNuxtConfig({
   //   preset: '/nuxt3-test/'
   // },
   buildModules: [
-    '@vueuse/core/nuxt',
+    '@vueuse/nuxt',
     '@pinia/nuxt',
   ],
 //  "app": {
