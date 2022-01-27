@@ -1,7 +1,6 @@
 <script setup lang="ts">
-const { x, y } = useMouse()
+const { x, y } = useMouse();
 </script>
-
 <template>
-  <div>pos: {{x}}, {{y}}</div>
+  <div>pos: {{ x }}, {{ y }}</div>
 </template>
