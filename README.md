@@ -14,6 +14,12 @@
 第四课: Layout 布局
 [跟着杨村长学 nuxt3,--window 报错处理(4)](https://juejin.cn/post/7038624986797441055)
 
+# 本工程包含功能
+1. layout布局
+2. dev-ui和elementPlus 插件引入
+3. @vueuse/nuxt,@pinia/nuxt,Vue3SketchRuler,插件使用
+
+
 ## 预览
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/github-tgbjx4)
