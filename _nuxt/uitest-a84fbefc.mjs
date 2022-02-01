@@ -1,1 +1,0 @@
-import{_,n as t,c as a,j as e,k as o,l as s,o as r}from"./bootstrap-ad0fe7bd.mjs";const d={},l={class:""},u=s("\u6309\u94AE"),i=s("Success");function p(f,m){const n=t("d-button"),c=t("el-button");return r(),a("div",l,[e(n,null,{default:o(()=>[u]),_:1}),e(c,{type:"success",plain:""},{default:o(()=>[i]),_:1})])}var h=_(d,[["render",p]]);export{h as default};

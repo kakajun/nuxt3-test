@@ -1,0 +1,1 @@
+import{_ as t,n as o,c as n,j as a,k as s,a as c,l as _,o as r}from"./bootstrap-29242f3c.mjs";const d={},l=c("h1",null,"heard",-1),u=_("heard\u6309\u94AE");function f(m,p){const e=o("d-button");return r(),n("div",null,[l,a(e,null,{default:s(()=>[u]),_:1})])}var i=t(d,[["render",f]]);export{i as default};

@@ -1,0 +1,1 @@
+import{_ as e,c as o,o as t,a as c}from"./bootstrap-29242f3c.mjs";const _={},n=c("h1",null,"footer",-1),s=[n];function r(a,f){return t(),o("div",null,s)}var d=e(_,[["render",r]]);export{d as default};

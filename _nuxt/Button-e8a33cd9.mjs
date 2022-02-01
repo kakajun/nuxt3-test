@@ -1,0 +1,1 @@
+import{_ as e,c as o,m as s,o as r}from"./bootstrap-29242f3c.mjs";const a={},c={class:"button"};function n(t,_){return r(),o("a",c,[s(t.$slots,"default")])}var l=e(a,[["render",n]]);export{l as default};

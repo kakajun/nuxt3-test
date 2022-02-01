@@ -1,1 +1,0 @@
-import{_ as e,c as o,o as t,a as _}from"./bootstrap-ad0fe7bd.mjs";const c={},n=_("h1",null,"footer",-1),s=[n];function a(r,d){return t(),o("div",null,s)}var l=e(c,[["render",a]]);export{l as default};
