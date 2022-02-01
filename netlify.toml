@@ -1,16 +1,13 @@
-[dev]
-  command = "sleep 999999999"
-  framework = "#custom"
-  functions = ".output/server"
-  port = 8888
-  targetPort = 3000
+[build.environment]
+  NPM_FLAGS = "--version"
+  NODE_VERSION = "16"
 
 [build]
-  command = "npm run generate"
   publish = "dist"
-  functions = ".output/server"
+  command = "npx pnpm i --store=node_modules/.pnpm-store && npx pnpm run build"
+
 
 [[redirects]]
   from = "/*"
-  to = "/.netlify/functions/index"
+  to = "/index.html"
   status = 200
