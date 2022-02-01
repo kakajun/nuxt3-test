@@ -48,5 +48,12 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@4.1.6
         with:
           BRANCH: gh-pages
-          FOLDER: ".output/public"
+          FOLDER: ".output"
           CLEAN: true
+            - name: start
+        run: npm run start
+        env:
+          NITRO_PRESET: browser
+          NUXT_ROUTER_BASE: /nuxt3-test/
+
+     
