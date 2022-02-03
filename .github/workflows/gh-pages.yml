@@ -49,7 +49,7 @@ jobs:
         with:
           BRANCH: gh-pages
           # workspace: '.output/server'
-          FOLDER: "public"
+          FOLDER: ".output/public"
           CLEAN: true
         env:
           NITRO_PRESET: browser
