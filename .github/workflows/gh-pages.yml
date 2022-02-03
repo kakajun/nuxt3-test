@@ -50,8 +50,6 @@ jobs:
           BRANCH: gh-pages
           FOLDER: ".output"
           CLEAN: true
-            - name: start
-        run: npm run start
         env:
           NITRO_PRESET: browser
           NUXT_ROUTER_BASE: /nuxt3-test/
