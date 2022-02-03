@@ -48,7 +48,8 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@4.1.6
         with:
           BRANCH: gh-pages
-          FOLDER: ".output"
+          workspace: '.output/server'
+          # FOLDER: ".output"
           CLEAN: true
         env:
           NITRO_PRESET: browser
